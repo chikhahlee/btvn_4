@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: whitesmoke;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+  font-size: xx-large;
+  margin-bottom: 20px;
+  color: black;
+}
+.bar input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 50px;
+  outline: none;
+}
+.pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin: 10px 0;
+}
+.box {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+}
+.minibox {
+  margin-top: 10px;
+}
+.element {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: black;
+  font-size: 0.8rem;
+  margin: 2px;
+}
+.grass {
+  background-color: greenyellow;
+}
+.poison {
+  background-color: blueviolet;
+}
+.fire {
+  background-color: orangered;
+}
+.flying {
+  background-color: mediumpurple;
+}
